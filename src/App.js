@@ -6,6 +6,7 @@ import LoginScreen from "./components/LoginScreen"
 
 import './App.css';
 import SignUp from "./components/SignUp";
+import GuestBook from "./components/GuestBook";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route exact path="/"  component={HomeScreen} />
           <Route path="/login" component={LoginScreen} />
           <Route path="/signup" component={SignUpScreen} />
+          <Route path="/guestbook" component={GuestBook} />
       </Switch>
     </div>
   );
